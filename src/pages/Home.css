@@ -1,0 +1,43 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.home-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.home-header-left{
+    display: flex;
+    align-items: center;
+
+}
+.home-header-left > p{
+ margin-right: 10px;
+    
+}
+.home-header-right{
+    display: flex;
+    min-width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.home-body >img{
+    object-fit: contain;
+    height: 100px;
+
+    
+
+}
+.home-inputContainer{
+    margin-top: 20px;
+}
